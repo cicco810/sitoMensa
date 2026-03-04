@@ -459,7 +459,7 @@
 
 
     <p style="text-align: left">
-        Tra parentesi puoi trovare la lista degli ingredienti. Consulta il libro per maggiori dettagli.<br />
-        Between brackets you can find the ingredients list. See book for more details.</p>
+        Puoi trovare la lista degli ingredienti, per maggiori dettagli, consulta il libro .<br />
+        You can find the ingredients list, for more details, see the book.</p>
 </body>
 </html>
