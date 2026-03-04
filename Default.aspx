@@ -54,7 +54,7 @@
             </td>
         </tr>
         <tr>
-            <td colspan="4" style="border-top:1px solid #ccc;">&nbsp;
+            <td colspan="4" style="background-color: silver">
             </td>
         </tr>
         <tr>
@@ -62,9 +62,9 @@
                 <asp:Image ID="Image1" runat="server" Height="64px" ImageUrl="~/img/New_primo.png"
                                     Width="64px" /><br />
                                 <span style="color: black">
-                                    <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="X-Large" Text="primi Piatti"
+                                    <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Primi Piatti"
                                         Width="250px"></asp:Label><br />
-                                    <asp:Label ID="Label9" runat="server" Font-Size="Large" Text="First courses" Width="251px"></asp:Label></span></td>
+                                    <asp:Label ID="Label9" runat="server" Font-Size="Large" Text="First Courses" Width="251px"></asp:Label></span></td>
             <td rowspan="1" style="width: 41%; text-align: left">
                                     <asp:Label ID="primi1" runat="server" Font-Size="X-Large" Height="25px" Style="vertical-align: text-top;
                                          text-align: justify; left: 0px; top: -3px;  background-repeat: no-repeat; text-justify: auto; text-indent: 2pt;" Text="Label" Width="640px" EnableTheming="True" Font-Overline="False" Font-Strikeout="False" ForeColor="Black" Font-Bold="True"></asp:Label></td>
@@ -156,9 +156,9 @@
             <td rowspan="7" style="width: 198px">
                 <asp:Image ID="Image2" runat="server" Height="64px" ImageUrl="~/img/Nwe_secondo.png"
                                     Width="64px" /><br />
-                <asp:Label ID="Label4" runat="server" Font-Bold="True" Font-Size="X-Large" Text="secondi piatti"
+                <asp:Label ID="Label4" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Secondi Piatti"
                     Width="250px"></asp:Label><br />
-                <asp:Label ID="Label10" runat="server" Font-Size="Large" Text="Main courses" Width="251px"></asp:Label></td>
+                <asp:Label ID="Label10" runat="server" Font-Size="Large" Text="Main Courses" Width="251px"></asp:Label></td>
             <td style="width: 41%">
                                     <asp:Label ID="secondi1" runat="server" Font-Size="X-Large" Height="25px" Style="vertical-align: text-top;
                                          text-align: justify; left: 0px; top: -3px;  background-repeat: no-repeat; text-justify: auto; text-indent: 2pt;" Text="Label" Width="640px" ForeColor="Black" Font-Bold="True"></asp:Label></td>
@@ -241,7 +241,7 @@
                                          text-align: justify; left: 0px; top: -3px;  background-repeat: no-repeat; text-justify: auto; text-indent: 2pt;" Font-Size="Large" Height="25px" Text="Label" Width="585px" ForeColor="Black"></asp:Label></td>
         </tr>
         <tr>
-            <td colspan="4" rowspan="1" style="border-top:1px solid #ccc;">&nbsp;
+            <td colspan="4" rowspan="1" style="background-color: silver">
             </td>
         </tr>
         <tr>
@@ -249,9 +249,9 @@
                 <asp:Image ID="Image3" runat="server" Height="64px" ImageUrl="~/img/New_salad.png"
                                     Width="64px" /><br />
                                 <strong><span style="color: black">
-                                    <asp:Label ID="Label5" runat="server" Font-Bold="True" Font-Size="X-Large" Text="contorni"
-                                        Width="250px"></asp:Label><br />
-                                    <asp:Label ID="Label11" runat="server" Font-Size="Large" Text="Side dishes" Width="251px"></asp:Label></span></strong></td>
+                                    <asp:Label ID="Label5" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Contorni"
+                                        Width="250px"></asp:Label></br></strong>
+                                    <asp:Label ID="Label11" runat="server" Font-Size="Large" Text="Side Dishes" Width="251px"></asp:Label></span></td>
             <td style="width: 41%">
                                     <asp:Label ID="contorni1" runat="server" Font-Size="X-Large" Height="25px" Style="vertical-align: text-top;
                                          text-align: justify; left: 0px; top: -3px;  background-repeat: no-repeat; text-justify: auto; text-indent: 2pt;" Text="Label" Width="640px" ForeColor="Black" Font-Bold="True"></asp:Label></td>
@@ -343,16 +343,16 @@
                     Text="Label" Width="585px"></asp:Label></td>
         </tr>
         <tr>
-            <td colspan="4" rowspan="1" style="border-top:1px solid #ccc;">&nbsp;
+            <td colspan="4" rowspan="1" style="width: 41%; background-color: silver">
             </td>
         </tr>
         <tr>
             <td rowspan="9" style="width: 198px">
                 <asp:Image ID="Image4" runat="server" Height="64px" ImageUrl="~/img/frutta.png"
                                     Width="64px" /><br />
-                <asp:Label ID="Label8" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Frutta/Yogurt"
+                <asp:Label ID="Label8" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Frutta o Yogurt"
                     Width="250px"></asp:Label><br />
-                <asp:Label ID="Label12" runat="server" Font-Size="Large" Text="Fruit/Yogurt" Width="251px"></asp:Label></td>
+                <asp:Label ID="Label12" runat="server" Font-Size="Large" Text="Fruit or Yogurt" Width="251px"></asp:Label></td>
             <td style="width: 41%">
                 <asp:Label ID="frutta1" runat="server" Font-Bold="True" Font-Size="X-Large" ForeColor="Black"
                     Height="25px" Style="text-justify: auto; left: 0px; 
