@@ -354,9 +354,9 @@
             <td rowspan="9" style="width: 198px">
                 <asp:Image ID="Image4" runat="server" Height="64px" ImageUrl="~/img/frutta.png"
                                     Width="64px" /><br />
-                <asp:Label ID="Label8" runat="server" Font-Bold="True" Font-Size="X-Large" Text="fruta/yogurt"
+                <asp:Label ID="Label8" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Frutta/Yogurt"
                     Width="250px"></asp:Label><br />
-                <asp:Label ID="Label12" runat="server" Font-Size="Large" Text="Fruit/yogurt" Width="251px"></asp:Label></td>
+                <asp:Label ID="Label12" runat="server" Font-Size="Large" Text="Fruit/Yogurt" Width="251px"></asp:Label></td>
             <td style="width: 41%">
                 <asp:Label ID="frutta1" runat="server" Font-Bold="True" Font-Size="X-Large" ForeColor="Black"
                     Height="25px" Style="text-justify: auto; left: 0px; 
@@ -463,9 +463,7 @@
 
 
     <p style="text-align: left">
-        Tra parentesi la ista degli ingredienti consultabile nel libro<br />
-        betwheen brackets ingedients list. see book for details</p>
-
-
+        Tra parentesi puoi trovare la lista degli ingredienti. Consulta il libro per maggiori dettagli.<br />
+        Between brackets you can find the ingredients list. See book for more details.</p>
 </body>
 </html>
