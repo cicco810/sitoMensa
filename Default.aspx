@@ -1,5 +1,5 @@
-<%@ page language="VB" autoeventwireup="false" inherits="_Default, App_Web_pwtdrkvz" %>
-<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<%-- @ page language="VB" autoeventwireup="false" inherits="_Default, App_Web_pwtdrkvz" --%>
+<%-- @ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" --%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
@@ -17,8 +17,6 @@
             <td style="width: 41%; text-align: left; height: 50px;">
             <table style="width: 341px; height: 80px;">
                 <tr>
-                    <td style="width: 24px; height: 5px; background-color: red">
-                    </td>
                     <td colspan="2" style="width: 200px; height: 5px">
                     </td>
                 </tr>
@@ -29,7 +27,7 @@
                 </tr>
                 <tr>
                     <td colspan="3" style="height: 35px; text-align: left">
-                <asp:Label style="text-align: left; font-family: Calibri;" Font-Size="XX-Large" Height="35px" ID="Label6" runat="server" Text="Label" Width="400px" ForeColor="Black"></asp:Label></td>
+                <asp:Label   style="border-bottom:6px solid #FFF014;  text-align: left; font-family: Calibri" Font-Size="XX-Large" Height="35px" ID="Label6" runat="server" Text="Label" Width="400px" ForeColor="Black"></asp:Label></td>
                 </tr>
             </table>
             </td>
@@ -38,9 +36,7 @@
             <td style="width: 41%; height: 50px;">
             <table style="width: 341px; height: 80px;">
                 <tr>
-                    <td style="width: 24px; height: 5px; background-color: red">
-                    </td>
-                    <td colspan="2" style="width: 200px; height: 5px">
+                     <td colspan="2" style="width: 200px; height: 5px">
                     </td>
                 </tr>
                 <tr>
@@ -52,13 +48,13 @@
                 <tr>
                     <td colspan="3" style="height: 35px; text-align: left">
                 <asp:Label ID="Label7" runat="server" Font-Size="XX-Large" ForeColor="Black"
-                      Style="text-align: left; font-family: Calibri;" Text="Label" Width="400px" Height="35px"></asp:Label></td>
+     Style="text-align: left; font-family: Calibri;border-bottom:6px solid #FFF014;" Text="Label" Width="400px" Height="35px"></asp:Label></td>
                 </tr>
             </table>
             </td>
         </tr>
         <tr>
-            <td colspan="4" style="background-color: silver">
+            <td colspan="4" style="border-top:1px solid #ccc;">&nbsp;
             </td>
         </tr>
         <tr>
@@ -153,7 +149,7 @@
                                          text-align: justify; left: 0px; top: -3px;  background-repeat: no-repeat; text-justify: auto; text-indent: 2pt;" Font-Size="Large" Height="25px" Text="Label" Width="585px" ForeColor="Black"></asp:Label></td>
         </tr>
         <tr>
-            <td colspan="4" rowspan="1" style="background-color: silver">
+            <td colspan="4" rowspan="1" style="border-top:1px solid #ccc;">&nbsp;
             </td>
         </tr>
         <tr>
@@ -245,7 +241,7 @@
                                          text-align: justify; left: 0px; top: -3px;  background-repeat: no-repeat; text-justify: auto; text-indent: 2pt;" Font-Size="Large" Height="25px" Text="Label" Width="585px" ForeColor="Black"></asp:Label></td>
         </tr>
         <tr>
-            <td colspan="4" rowspan="1" style="background-color: silver">
+            <td colspan="4" rowspan="1" style="border-top:1px solid #ccc;">&nbsp;
             </td>
         </tr>
         <tr>
@@ -347,7 +343,7 @@
                     Text="Label" Width="585px"></asp:Label></td>
         </tr>
         <tr>
-            <td colspan="4" rowspan="1" style="width: 41%; background-color: silver">
+            <td colspan="4" rowspan="1" style="border-top:1px solid #ccc;">&nbsp;
             </td>
         </tr>
         <tr>
