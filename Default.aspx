@@ -54,13 +54,13 @@
             </td>
         </tr>
         <tr>
-            <td colspan="4" style="background-color: silver">
+            <td colspan="4" style="border-top:1px solid #ccc;">&nbsp;
             </td>
         </tr>
         <tr>
             <td rowspan="7" style="width: 198px">
-                <asp:Image ID="Image1" runat="server" Height="64px" ImageUrl="~/img/New_primo.png"
-                                    Width="64px" /><br />
+                &nbsp;  &#127837;<%--emoji spaghetto--%>  
+				&#127834;<%--emoji riso--%>
                                 <span style="color: black">
                                     <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Primi Piatti"
                                         Width="250px"></asp:Label><br />
@@ -154,8 +154,7 @@
         </tr>
         <tr>
             <td rowspan="7" style="width: 198px">
-                <asp:Image ID="Image2" runat="server" Height="64px" ImageUrl="~/img/Nwe_secondo.png"
-                                    Width="64px" /><br />
+                &nbsp;	&#127830; <%--emoji carne--%> &#129472; <%--formaggio--%>
                 <asp:Label ID="Label4" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Secondi Piatti"
                     Width="250px"></asp:Label><br />
                 <asp:Label ID="Label10" runat="server" Font-Size="Large" Text="Main Courses" Width="251px"></asp:Label></td>
@@ -241,13 +240,13 @@
                                          text-align: justify; left: 0px; top: -3px;  background-repeat: no-repeat; text-justify: auto; text-indent: 2pt;" Font-Size="Large" Height="25px" Text="Label" Width="585px" ForeColor="Black"></asp:Label></td>
         </tr>
         <tr>
-            <td colspan="4" rowspan="1" style="background-color: silver">
+            <td colspan="4" rowspan="1" style="border-top:1px solid #ccc;">&nbsp;
             </td>
         </tr>
         <tr>
             <td rowspan="8" style="width: 198px">
-                <asp:Image ID="Image3" runat="server" Height="64px" ImageUrl="~/img/New_salad.png"
-                                    Width="64px" /><br />
+                &nbsp; 	&#129367; <%--insalata--%> 
+				&#127839; <%--patatine--%>
                                 <strong><span style="color: black">
                                     <asp:Label ID="Label5" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Contorni"
                                         Width="250px"></asp:Label></br></strong>
@@ -343,13 +342,13 @@
                     Text="Label" Width="585px"></asp:Label></td>
         </tr>
         <tr>
-            <td colspan="4" rowspan="1" style="width: 41%; background-color: silver">
+            <td colspan="4" rowspan="1" style="border-top:1px solid #ccc;">&nbsp;
             </td>
         </tr>
         <tr>
             <td rowspan="9" style="width: 198px">
-                <asp:Image ID="Image4" runat="server" Height="64px" ImageUrl="~/img/frutta.png"
-                                    Width="64px" /><br />
+                &nbsp; 	&#127820; <%--banana--%>
+				&#127822; <%--mela--%>
                 <asp:Label ID="Label8" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Frutta o Yogurt"
                     Width="250px"></asp:Label><br />
                 <asp:Label ID="Label12" runat="server" Font-Size="Large" Text="Fruit or Yogurt" Width="251px"></asp:Label></td>
