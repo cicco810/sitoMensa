@@ -54,13 +54,15 @@
             </td>
         </tr>
         <tr>
-            <td colspan="4" style="border-top:1px solid #ccc;">&nbsp;
+            <td colspan="4">&nbsp;
             </td>
         </tr>
         <tr>
             <td rowspan="7" style="width: 198px">
-                &nbsp;  &#127837;<%--emoji spaghetto--%>  
-				&#127834;<%--emoji riso--%>
+			<span style="font-size:50px;">
+                &#127837;<%--emoji spaghetto--%>
+				&#127858;<%--emoji zuppa--%>				
+				</span>  
                                 <span style="color: black">
                                     <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Primi Piatti"
                                         Width="250px"></asp:Label><br />
@@ -154,7 +156,9 @@
         </tr>
         <tr>
             <td rowspan="7" style="width: 198px">
-                &nbsp;	&#127830; <%--emoji carne--%> &#129472; <%--formaggio--%>
+			<span style="font-size:50px;">
+                &#127830; <%--emoji carne--%> 
+				&#129472; <%--formaggio--%></span>
                 <asp:Label ID="Label4" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Secondi Piatti"
                     Width="250px"></asp:Label><br />
                 <asp:Label ID="Label10" runat="server" Font-Size="Large" Text="Main Courses" Width="251px"></asp:Label></td>
@@ -245,8 +249,9 @@
         </tr>
         <tr>
             <td rowspan="8" style="width: 198px">
-                &nbsp; 	&#129367; <%--insalata--%> 
-				&#127839; <%--patatine--%>
+			<span style="font-size:50px;">
+                &#129367; <%--insalata--%> 
+				&#127839; <%--patatine--%></span>
                                 <strong><span style="color: black">
                                     <asp:Label ID="Label5" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Contorni"
                                         Width="250px"></asp:Label></br></strong>
@@ -347,8 +352,11 @@
         </tr>
         <tr>
             <td rowspan="9" style="width: 198px">
-                &nbsp; 	&#127820; <%--banana--%>
-				&#127822; <%--mela--%>
+			<span style="font-size:50px;">
+				&#127820; <%--banana--%>
+				&#129373; <%--kiwi--%>
+				</span>
+				
                 <asp:Label ID="Label8" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Frutta o Yogurt"
                     Width="250px"></asp:Label><br />
                 <asp:Label ID="Label12" runat="server" Font-Size="Large" Text="Fruit or Yogurt" Width="251px"></asp:Label></td>
@@ -457,8 +465,8 @@
 </form>
 
 
-    <p style="text-align: left">
-        Puoi trovare la lista degli ingredienti, per maggiori dettagli, consulta il libro .<br />
-        You can find the ingredients list, for more details, see the book.</p>
+    <p style="text-align: left; font-size:medium; color: white; background-color:#231964; padding: 25px">
+        Dettagli e ingredienti disponibili nel testo di riferimento.<br />
+        See book for full ingredient list and details.</p>
 </body>
 </html>
