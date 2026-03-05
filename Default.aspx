@@ -6,7 +6,26 @@
     <title>Ristora Web Info</title>
 </head>
 
-<body style="font-size: 14pt; font-family:'ABBvoice TWHK'; text-align: center;">
+<style>
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* Crea il pattern ripetuto */
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='250' height='150'><text x='50%' y='50%' fill='rgba(0, 0, 0, 0.03)' font-size='30' font-family='sans-serif' font-weight='bold' text-anchor='middle' transform='rotate(-30, 125, 75)' style='letter-spacing: 5px;'>Ristora</text></svg>");
+  background-repeat: repeat;
+  background-attachment: fixed; /* Il watermark resta fermo mentre scorri */
+}
+
+/* Opzionale: Stile per il contenuto sopra il watermark */
+.content {
+  position: relative;
+  z-index: 1;
+  font-family: 'ABBvoice TWHK', sans-serif;
+  font-size: 14pt;
+  text-align: center;
+  padding: 50px;
+}
+</style>
 
 
 <form id="form1" runat="server">
